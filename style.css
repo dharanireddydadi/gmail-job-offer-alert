@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f1f3f4;
+    color: #202124;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #4285f4;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .tab:hover {
+    background-color: #d5d5d5;
+  }
+  
+  .tab.active {
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  main h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  #email-list {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .email {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .email:last-child {
+    border-bottom: none;
+  }
+  
+  .email strong {
+    display: block;
+    font-size: 16px;
+  }
+  
+  .email p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 4px;
+  }
+  
+  .offer-alert {
+    display: inline-block;
+    margin-top: 6px;
+    background-color: #e8f0fe;
+    color: #1967d2;
+    padding: 5px 8px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  

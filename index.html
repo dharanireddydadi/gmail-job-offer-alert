@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gmail Offer Alert</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>📬 Gmail Clone – Offer Alert System</h1>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" onclick="showTab('primary')">Primary</button>
+    <button class="tab" onclick="showTab('promotions')">Promotions</button>
+    <button class="tab" onclick="showTab('social')">Social</button>
+    <button class="tab" onclick="showTab('updates')">Updates</button>
+    <button class="tab" onclick="showTab('offers')">Offers</button>
+  </nav>
+
+  <main>
+    <h2 id="tab-title">Primary</h2>
+    <div id="email-list"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
